@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dídac Cayuela | Computer Science Student</title>
+
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <header id="header">
+
+        <nav id="nav">
+
+            <div class="container nav-container">
+                <a href="index.html" id="logo"><img src="img/logo.png" alt="logo"></a>
+                <ul class="nav-links flex">
+
+                    <li>
+                        <a href="#projects" class="link"><i class="fas fa-code"></i> Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#skills" class="link"><i class="fas fa-tools"></i> Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="#education" class="link"><i class="fas fa-user-graduate"></i> Education</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="link"><i class="fas fa-envelope"></i> Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <div class="line"></div>
+
+        <div class="summary">
+            <h1>Hi, I'm <span class="highlight">Dídac</span></h1>
+            <p class="hero-text">
+                currently studying computer science at <a href="https://www.grauinformatica.udl.cat/ca/"
+                    class="red-link-underline">Universitat de Lleida.</a> I've been teaching private mathematics classes
+                to ESO and BATX students for the past 3 years, I like to work on side projects during my free time to
+                further improve my skills as well as my understanding of this field.</p>
+        </div>
+
+        <div class="hero-buttons">
+            <a class="btn linkedin" href="https://www.linkedin.com/in/didac-cayuela/" target="_blank"><i
+                    class="fab fa-linkedin"></i> Linkedin</a>
+            <a class="btn github" href="https://github.com/didicayu" target="_blank"><i class="fab fa-github"></i>
+                GitHub</a>
+        </div>
+
+    </header>
+
+    <section id="projects" class="projects-section">
+
+        <h2>My Projects</h2>
+
+        <div class="project-row">
+
+            <div class="card project-left">
+
+                <div class="tools">
+                    <div class="circle">
+                        <span class="red box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="yellow box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="green box"></span>
+                    </div>
+                </div>
+
+                <div class="card__content">
+                    <a href="https://github.com/didicayu/Doodle-Recognition-Neural-Network" target="_blank"><img
+                            src="img/doodleRecognition.png"></a>
+                </div>
+            </div>
+
+            <div class="project-right">
+                <h3>Doodle Recognition Neural Network</h3>
+
+
+                <ul class="tech-stack-list">
+                    <p class="made-with">Made with:</p>
+                    <li><img src="img/unity.png"></li>
+                    <li><img src="img/csharp.svg"></li>
+                    <li></li>
+                </ul>
+
+
+                <p>This was my first project using a neural network library that I built from scratch in unity with C#.
+                    This demo lets you draw on a canvas whatever you want, and the neural network will try to classify
+                    your drawing as either a cat, a rainbow, an airplane or a bannana. You can chose how much do you
+                    want to train the network and see how the number of epochs impacts it's performance. This AI was
+                    trained using <a href="https://quickdraw.withgoogle.com/data" target="_blank"
+                        class="white-link-underline">google's "Quick, Draw!" data.</a></p>
+            </div>
+
+        </div>
+
+        <div class="project-row">
+
+            <div class="card project-left">
+
+                <div class="tools">
+                    <div class="circle">
+                        <span class="red box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="yellow box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="green box"></span>
+                    </div>
+                </div>
+
+                <div class="card__content">
+                    <a href="https://github.com/didicayu/flappy-bird-neuroevolution" target="_blank"><img
+                            src="img/flappyBirdNeuroevolution.png"></a>
+                </div>
+            </div>
+
+            <div class="project-right">
+                <h3>Flappy Bird NeuroEvolution</h3>
+
+
+                <ul class="tech-stack-list">
+                    <p class="made-with">Made with:</p>
+                    <li><img src="img/unity.png"></li>
+                    <li><img src="img/csharp.svg"></li>
+                    <li></li>
+                </ul>
+
+
+                <p>For this project I used my custom Neural Network library once more. I focused on learning alternative
+                    ways of training AI models other than the classic supervised learning, this demo demonstrates how
+                    <a href="https://en.wikipedia.org/wiki/Neuroevolution" target="_blank"
+                        class="white-link-underline">neuro
+                        evolution</a> training works. Some updates to the library were made such as being able to
+                    store "the brain" on a file
+                </p>
+            </div>
+
+        </div>
+
+        <div class="project-row">
+
+            <div class="card project-left">
+
+                <div class="tools">
+                    <div class="circle">
+                        <span class="red box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="yellow box"></span>
+                    </div>
+                    <div class="circle">
+                        <span class="green box"></span>
+                    </div>
+                </div>
+
+                <div class="card__content">
+                    <a href="https://github.com/didicayu/Thread-Portrait-Project/" target="_blank"><img
+                            src="img/threadPortraitProject.png"></a>
+                </div>
+            </div>
+
+            <div class="project-right">
+                <h3>Thread Portrait Project</h3>
+
+
+                <ul class="tech-stack-list">
+                    <p class="made-with">Made with:</p>
+                    <li><img src="img/java.png"></li>
+                    <li></li>
+                </ul>
+
+
+                <p>I made a program that converts any square (1:1 ratio) image into a <a
+                        href="https://en.wikipedia.org/wiki/String_art" target="_blank"
+                        class="white-link-underline">thread portrait</a> and then returns a
+                    set of instructions to make the art piece in real life as well as an image of the estimated final
+                    result.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="skills" class="skills-section">
+        <div class="wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <h2>My Technical Skills</h2>
+
+        <div class="container">
+            <ul class="skills-icons">
+                <li><img src="img/unity.png"><span>Unity3D</span></li>
+                <li><img src="img/csharp.svg"><span>C#</span></li>
+                <li><img src="img/c++.png"><span>C++</span></li>
+                <li><img src="img/c.svg"><span>C</span></li>
+                <li><img src="img/java.png"><span>Java</span></li>
+                <li><img src="img/python.png"><span>Python</span></li>
+                <li><img src="img/html.png"><span>HTML</span></li>
+                <li><img src="img/css.png"><span>CSS</span></li>
+                <li><img src="img/javascript.png"><span>JavaScript</span></li>
+                <li><img src="img/linux.png"><span>Linux</span></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="education" class="education-section">
+        <h2>My Education</h2>
+
+        <div class="education-row">
+
+            <div class="education-left">
+                <p>2021 - 2025</p>
+                <br>
+                <b>Grau en Enginyeria Informàtica</b>
+            </div>
+
+            <div class="card-education">
+                <div class="circle-education"></div>
+                <div class="circle-education"></div>
+                <div class="card-education-inner">
+                    <p><b>Universitat de Lleida</b><br>EPS</p>
+                    <img src="img/EPSedifici.jpg">
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <div class="spacer layer1"></div>
+
+    <section id="contact" class="contact-section">
+
+        <h2>Contact Me</h2>
+
+        <form action="https://formspree.io/f/mbjenbal" method="POST" id="contact-form">
+            <div class="form__group">
+                <input type="text" class="form__field" id="name" name="name" placeholder="Name" required="">
+            </div>
+
+            <div class="form__group">
+                <input type="email" class="form__field" id="email" name="email" placeholder="Your email" required="">
+            </div>
+
+            <div class="form__group">
+                <textarea name="message" class="form__field" id="message" rows="7" placeholder="Message" style="height: 275px;"></textarea>
+            </div>
+            <!-- your other form fields go here -->
+            <button type="submit" class="submit-button">
+                <div class="svg-wrapper-1">
+                  <div class="svg-wrapper">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
+                    </svg>
+                  </div>
+                </div>
+                <span>Send</span>
+              </button>
+        </form>
+
+
+    </section>
+
+</body>
+
+<footer><b>&copy; 2023 Dídac Cayuela Dolcet<b></footer>
+
+</html>
