@@ -1,0 +1,155 @@
+body {
+  padding-top: 56px;
+  position: relative;
+
+  background-image: url("anahi/corasones.gif");
+}
+
+.content-area {
+  background-color: #f8f9fa;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+h2 {
+  margin: 0.5%;
+  margin-top: 1%;
+}
+
+h3 {
+  margin: 1%;
+}
+
+.section {
+  position: relative;
+  padding: 50px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.side-image {
+  max-height: 100%;
+  width: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0; /* Adjusted the left positioning */
+  right: 0; /* Adjusted the right positioning */
+  margin: auto;
+}
+
+.carousel, .section-img {
+  max-height: 50%;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-bottom: 3dvi;
+}
+
+
+.navbar-nav {
+  margin-right: 0.8%;
+  margin-left: auto;
+}
+
+.navbar-brand {
+  margin-left: 0.8%;
+  margin-right: auto;
+}
+
+.center-content {
+  position: relative; /* Added relative positioning to create stacking context */
+  z-index: 1;
+}
+
+#teAmo {
+  background-color: #eceff2;
+  padding: 100px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #494949;
+  color: #eceff2;
+  text-align: center;
+}
+
+footer p{
+  margin: 0;
+}
+
+#teAmo h2 {
+  color: red;
+  font-size: 2.5rem;
+}
+
+#teAmo img {
+  max-width: 100px;
+  margin: 20px;
+}
+
+p {
+  margin-top: 2.5%;
+  margin-bottom: 3.5%;
+}
+
+.btn-wide {
+  width: calc(10% - 1.25%); /* Adjust the width as needed, subtract half of the margin */
+
+  margin-right: 2.5%; /* Adjust the right margin to add a gap between buttons */
+  margin-left: 2.5%;
+}
+
+/* Additional styles to ensure proper button appearance */
+.button-container {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for the Popup Container */
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-content {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: fit-content;
+  position: relative;
+  z-index: 1000;
+}
+
+.popup-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.popup-content img {
+  object-fit: cover;
+  width: 100%;
+  height: 70vh;
+  padding: 3%;
+}
+
+
+
